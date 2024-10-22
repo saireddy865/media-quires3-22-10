@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (width < 600px) {
+    .button {
+        display: none;
+    }
+}
+
+@media screen and (width > 600px) {
+    .button {
+        background-color: pink;
+    }
+}
